@@ -52,6 +52,38 @@ li a:hover {
   background-color: rgb(221, 220, 220);
 }
 
+
+
+.para{
+
+background-color: red;
+display:flex;
+justify-content: space-around;
+align-items: center;
+height: 90vh;
+top:10vh;
+}
+.greating-h1{
+  font-size: 1.5rem;
+  font-weight: 400;
+  word-spacing: 4px;
+  line-height: 1.8rem;
+}
+.name-h2, .about-h2{
+  font-size: 1.8rem;
+  font-weight: 600;
+  word-spacing: 3px;
+  line-height: 4rem;
+  letter-spacing: 4px;
+}
+.about-p{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.2rem;
+  letter-spacing: 3px;
+  line-height: 1.8rem;
+  word-spacing: 3px;
+}
+
 /*  media query  */
 @media (max-width: 1024px) {
   nav ul {
@@ -76,6 +108,10 @@ li a:hover {
     background-color: rgba(10, 25, 47, 0.85);
     transform: translateX(100%);
     transition: transform 5s ease-in;
+  }
+  .para{
+    flex-direction: column;
+
   }
 
   .burger {
